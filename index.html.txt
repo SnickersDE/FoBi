@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fortbildungen für Erzieher:innen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fortbildungen für Erzieher:innen</h1>
+    <p>Ich biete praxisnahe Fortbildungen für pädagogische Fachkräfte an – kompakt, verständlich und nah an der Realität des Kita- und Jugendhilfealltags.</p>
+    
+    <section>
+      <h2>Über mich</h2>
+      <p>[Hier kommt ein kurzer Text über dich hin – z. B. deine berufliche Laufbahn, dein pädagogischer Fokus und was dich motiviert.]</p>
+    </section>
+
+    <section>
+      <h2>Fortbildungsthemen</h2>
+      <ul>
+        <li>Kinderschutz im Alltag sicher umsetzen</li>
+        <li>Partizipation in der pädagogischen Praxis</li>
+        <li>Medienpädagogik in der Kita</li>
+        <li>[Platzhalter für weiteres Thema]</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dein Name – <a href="impressum.html">Impressum</a></p>
+  </footer>
+</body>
+</html>
