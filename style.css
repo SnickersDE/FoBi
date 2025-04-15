@@ -1,44 +1,85 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #333;
-}
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
 
-header {
-  background: #800020;
-  padding: 1em;
-}
+  body {
+    background-color: white;
+    color: #4b0d18;
+    line-height: 1.6;
+  }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1em;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
+  header, footer {
+    background-color: #4b0d18;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 
-main {
-  max-width: 700px;
-  margin: 2em auto;
-  padding: 0 1em;
-}
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
 
-h1, h2 {
-  color: #800020;
-}
+  main {
+    padding: 2rem;
+  }
 
-footer {
-  text-align: center;
-  padding: 2em 0;
-  font-size: 0.9em;
-  background: #f4f4f4;
-}
+  .slideshow {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .fortbildungen-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .fortbildungen-container img {
+    flex: 1 1 20%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .text-container {
+    flex: 1 1 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .text-container div {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-left: 4px solid #4b0d18;
+  }
+
+  @media (max-width: 768px) {
+    .fortbildungen-container {
+      flex-direction: column;
+    }
+
+    .fortbildungen-container img,
+    .text-container {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
